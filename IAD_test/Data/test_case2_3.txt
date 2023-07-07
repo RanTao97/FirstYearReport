@@ -1,0 +1,45 @@
+# Inverse Adding-Doubling 3-11-4 (15 Oct 2019) 
+# 
+#                        Beam diameter =     8.0 mm
+#                     Sample thickness =   2.300 mm
+#                  Top slide thickness =   0.000 mm
+#               Bottom slide thickness =   0.000 mm
+#           Sample index of refraction =  1.4100
+#        Top slide index of refraction =  1.0000
+#     Bottom slide index of refraction =  1.0000
+# 
+#    Fraction unscattered refl. in M_R =   100.0 %
+#   Fraction unscattered trans. in M_T =   100.0 %
+# 
+# Reflection sphere
+#                      sphere diameter =    50.0 mm
+#                 sample port diameter =    10.0 mm
+#               entrance port diameter =     4.9 mm
+#               detector port diameter =     0.2 mm
+#                     wall reflectance =    98.5 %
+#                 standard reflectance =    98.5 %
+#                 detector reflectance =     0.0 %
+#
+# Transmission sphere
+#                      sphere diameter =    50.0 mm
+#                 sample port diameter =    10.0 mm
+#               entrance port diameter =     0.0 mm
+#               detector port diameter =     0.2 mm
+#                     wall reflectance =    98.5 %
+#               standard transmittance =   100.0 %
+#                 detector reflectance =     0.0 %
+#
+# M_R and M_T were measured using the substitution (single-beam) method.
+# Double sphere corrections were used with light incident at 8 degrees from the normal.
+# The inverse routine adapted to the input data.
+# 
+# 
+#                 AD quadrature points =  36
+#             AD tolerance for success =   0.00010
+#      MC tolerance for mu_a and mu_s' =   0.010 %
+#  Photons used to estimate lost light =   100000
+#
+#     	Measured 	   M_R   	Measured 	   M_T   	Estimated	Estimated	Estimated
+##wave	   M_R   	   fit   	   M_T   	   fit   	  mu_a   	  mu_s'  	    g    
+# [nm]	  [---]  	  [---]  	  [---]  	  [---]  	  1/mm   	  1/mm   	  [---]  
+ 202.0	8.172e-002	8.172e-002	4.787e-001	4.787e-001	2.009e-001	4.914e-002	7.000e-001	# * 

@@ -1,0 +1,32 @@
+IAD1   # Must be first four characters
+
+# The order of entries is important
+# Anything after a '#' is ignored, blank lines are also ignored
+
+1.410000	# Index of refraction of the sample
+1.500000	# Index of refraction of the top and bottom slides
+2.300000	# [mm] Thickness of sample
+0.000000	# [mm] Thickness of slides
+8.000000	# [mm] Diameter of illumination beam
+0.985000	# Reflectivity of the reflectance calibration standard
+
+2.00	# Number of spheres used during each measurement
+
+# Properties of sphere used for reflection measurements
+50.000000	# [mm] Sphere Diameter
+10.000000	# [mm] Sample Port Diameter
+4.900000	# [mm] Entrance Port Diameter
+0.200000	# [mm] Detector Port Diameter
+0.985000	# Reflectivity of the sphere wall
+
+# Properties of sphere used for transmission measurements
+50.000000	# [mm] Sphere Diameter
+10.000000	# [mm] Sample Port Diameter
+0.000000	# [mm] Entrance Port Diameter
+0.200000	# [mm] Detector Port Diameter
+0.985000	# Reflectivity of the sphere wall
+
+2.000000	# Number of measurements, M_R, M_T
+
+#lambda		M_R		M_T		#	mu_a		mu_sp		g
+202		0.081723772	0.478734859	#	0.2000		0.0500		0.700
